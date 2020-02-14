@@ -57,7 +57,7 @@ teacherRoute
 
       teacher[indexTeacher] = { empNo, name, address, designation };
       console.log(teacher);
-      res.status(200).send(`Employe number ${empNumber} updated`);
+      res.status(200).send(`Employe number ${empNumber} info updated`);
     } else {
       res.status(400).send(`Employe number ${empNumber} not found`);
     }
